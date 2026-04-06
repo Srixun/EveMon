@@ -6,6 +6,9 @@
 
 A lightweight, easy-to-use standalone Windows application designed to assist you in keeping track of your EVE Online character progression.
 
+## Recent Updates
+* **Migrated to .NET 8**: EVEMon is now built on the modern .NET 8 platform. The installer has been updated to automatically bootstrap the .NET 8 Desktop Runtime (x64) if it is not installed on the system.
+
 For complete info on *How To Contribute* please visit the [wiki](https://bitbucket.org/EVEMonDevTeam/evemon/wiki) section
 
 **Maintainer of the ESI fork:**
