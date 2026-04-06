@@ -79,7 +79,7 @@ Function .onInit
 	
 	# fix it so it only computes the space needed for EVEMon itself if .net is not installed
 	SectionSetSize 0 0
-	Call GetDotNETVersion
+	Call GetDotNET8Version
 	Pop $0
 	StrCmp $0 "" 0 .NetIsInstalled
 	SectionSetSize 0 66095 ; The size of .NET v4.6.1 in KiB
@@ -344,3 +344,5 @@ Section "un.Uninstall EVEMon"
 	DeleteRegKey /ifempty HKLM "Software\EVEMon"
 	DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\EVEMon"
 SectionEnd
+
+
