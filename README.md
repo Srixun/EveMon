@@ -4,7 +4,7 @@
 [![GitHub tag](https://img.shields.io/github/tag/mgoeppner/evemon.svg)]()
 [![CircleCI](https://circleci.com/gh/mgoeppner/evemon/tree/main.svg?style=svg)](https://circleci.com/gh/mgoeppner/evemon/tree/main)
 
-# **EVEMon** 
+# **EVEMon** Photon Version
 
 A lightweight, easy-to-use standalone Windows application designed to assist you in keeping track of your EVE Online character progression.
 
